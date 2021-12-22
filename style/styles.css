@@ -16,6 +16,36 @@ h1,h2,h3,h4,h5,h6 {
 }
 body{
     font-family: Inconsolata;
-    background-image: url("../img/bg.jpg") ;
+    background-color: rgb(20, 20, 20);
     color:white;
+}
+body, html,main, section{
+    height: 100%;
+    margin: 0;
+}
+.full-height{
+    height: 100%;
+}
+#particles-js {
+    width: 100%;
+    height: 100%;
+    /*background-image: url('');*/
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    position: absolute;
+    
+}
+
+canvas {
+    display: block;
+}
+#skills{
+    background-color: rgb(20, 20, 20);
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+    
 }

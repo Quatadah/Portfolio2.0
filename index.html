@@ -11,10 +11,13 @@
   <!-- Font Awesome -->
     <script src="https://kit.fontawesome.com/14273d579a.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style/styles.css">
+    <script src="js/index.js"></script>
     <title>Quatadah</title>
 </head>
 <body>
+    
     <header>
+        <div id="particles-js"></div>
         <nav class="navbar navbar-expand-md navbar-dark fixed-top">
             <div class="container">
                 <a href="#home" class="navbar-brand text-center">
@@ -48,25 +51,62 @@
                 </div>
             </div>
         </nav>
+        
     </header>
+    
 
     <main>
-        <section id="home" class="my-5">
-            <div class="container pt-5">
+        <section id="home" class="my-5">             
+            <div class="container pt-5 full-height">                  
                 <div class="row pt-5">
-                    <div class="col text-center">
+                    <div class="col text-center desc" >
                         <h1 class="py-5 fw-bold" id="title">Software Developer</h1>
                         <p class="h3">Currently studying computer science <br>at the higher France school ENSEIRB-MATMECA</p>
                     </div>
                 </div>
             </div>
         </section>
+        <section id="skills" class="my-5">
+            <div class="container py-5 full-height">
+                <div class="row">
+                    <div class="col text-center"><h1>My skills</h1></div>
+                </div>
+            </div>
+        </section>
+        <section id="projects" class="my-5">
+            <div class="container py-5 full-height">
+                <div class="row">
+                    <div class="col text-center"><h1>My projects</h1></div>
+                </div>
+            </div>
+        </section>
+        <section id="contact" class="my-5">
+            <div class="container py-5 full-height">
+                <div class="row">
+                    <div class="col text-center"><h1>Contact me</h1></div>
+                </div>
+            </div>
+        </section>
     </main>
     <footer>
-
+        <div class="container py-5">
+            <div class="ul list-inline">
+                <li class="list-inline-item"><a class="text-white" href="https://facebook.com/quatadah.nasdami.16" target="_blank"><i class="bi-facebook"></i></a></li>
+                <li class="list-inline-item"><a class="text-white" href="https://instagram.com/quatadah" target="_blank"><i class="bi-instagram"></i></a></li>
+                <li class="list-inline-item"><a class="text-white" href="https://github.com/quatadah" target="_blank"><i class="bi-github"></i></a></li>
+            </div>
+        </div>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
                 integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
                 crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js" data-deferred="1"></script>
+
+                        <script type="text/javascript">
+                        /* particlesJS.load(@dom-id, @path-json, @callback (optional)); */
+                        particlesJS.load('particles-js', './particles.json', function() {
+                        console.log('callback - particles.js config loaded');
+                        });
+                    </script> 
 </body>
 </html>
